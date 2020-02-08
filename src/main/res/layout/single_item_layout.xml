@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hospitals_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:src="@drawable/monuments_qutubminar"
+        android:layout_gravity="fill"
+        android:id="@+id/Image"
+        ></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="Akshardham Temple"
+            android:id="@+id/name"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+        ></TextView>
+
+        <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Delhi"
+             android:id="@+id/Location"
+             android:textColor="#000"
+             android:paddingLeft="20dp"
+             android:paddingBottom="2dp"
+             android:textSize="17sp"
+         ></TextView>
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="24-7"
+              android:textSize="17sp"
+              android:paddingLeft="20dp"
+              android:textColor="#000"
+                android:id="@+id/openinghours"
+                ></TextView>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

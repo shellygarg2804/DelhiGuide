@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DelhiGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    //to store names of each category
+    <string name="Category_Monuments">Monuments</string>
+    <string name="Category_hospitals">Hospitals</string>
+    <string name="Category_Parks">Parks</string>
+    <string name="Category_restaurants">Restaurants</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

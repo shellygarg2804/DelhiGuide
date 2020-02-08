@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33202C</color>
+    <color name="colorPrimaryDark">#B64063</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="monumentbg">#fce4ec</color>
+    <color name="hospitals_bg">#90caf9</color>
+    <color name="restaurants_bg">#eeff41</color>
+    <color name="Landmark_bg">#69f0ae</color>
+</resources>
