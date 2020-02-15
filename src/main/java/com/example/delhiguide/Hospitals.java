@@ -31,6 +31,7 @@ public class Hospitals extends Fragment {
             // Inflate the layout for this fragment
             View rootview = inflater.inflate(R.layout.item_list, container, false);
 
+            //prepare an array list for the items or information of type word
             final ArrayList<item> words = new ArrayList<item>();
             words.add(new item("The Medicity","Delhi","open 24 hrs"));
             words.add(new item("Manipal Hospital","Delhi","open 24 hrs"));

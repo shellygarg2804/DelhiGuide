@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class FragmentAdaptor extends FragmentPagerAdapter {
     private Context mcontext;
+    //constructor
     public FragmentAdaptor(Context context,FragmentManager fm) {
         super(fm);
         mcontext=context;
